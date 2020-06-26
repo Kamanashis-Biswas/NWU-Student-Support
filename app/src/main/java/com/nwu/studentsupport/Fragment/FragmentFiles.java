@@ -24,7 +24,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class FragmentFiles extends Fragment {
 	
-	private String JSON_URL="https://raw.githubusercontent.com/JHM69/CSE-11-JnU/master/files.json";
+	private String JSON_URL="https://raw.githubusercontent.com/Kamanashis-Biswas/NWU-App-Assets/master/files.json";
 	
 
     private RecyclerView recyclerView2;

@@ -29,7 +29,7 @@
         </activity>
         <activity
             android:name="com.nwu.studentsupport.Activity.SlybsActivity"
-            android:label="CSE&apos;11 Syllabus of JnU" />
+            android:label="CSE Syllabus of NWU" />
         <activity
             android:name="com.nwu.studentsupport.Activity.StudentDetailsActivity"
             android:label="Student Details" />

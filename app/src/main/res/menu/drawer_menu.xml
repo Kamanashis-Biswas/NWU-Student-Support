@@ -8,12 +8,12 @@
 	<item
         android:id="@+id/meme"
         android:icon="@drawable/ic_bookmark_border_black_24dp"
-        android:title="Facebook MEME Page" />
+        android:title="Facebook Page" />
 	
     <item
         android:id="@+id/site"
         android:icon="@drawable/ic_language_black_24dp"
-        android:title="Department Website" />
+        android:title="CSE Teacher List" />
 	
 	<item
         android:id="@+id/dsite"

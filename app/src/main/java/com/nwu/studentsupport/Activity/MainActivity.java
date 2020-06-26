@@ -109,11 +109,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 try {
                     Intent sharingIntent = new Intent(Intent.ACTION_VIEW);
                     sharingIntent.setType("URL");
-                    sharingIntent.setData(Uri.parse("fb://facewebmodal/f?href=https://m.facebook.com/coder.bhai.jnu"));
+                    sharingIntent.setData(Uri.parse("fb://facewebmodal/f?href=https://m.facebook.com/groups/cseofnwu/"));
                     sharingIntent.setPackage("com.facebook.katana");
                     startActivity(sharingIntent);
                 } catch (ActivityNotFoundException e) {
-                    Uri urin = Uri.parse("https://m.facebook.com/coder.bhai.jnu");
+                    Uri urin = Uri.parse("https://m.facebook.com/groups/cseofnwu/");
                     Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
                     startActivity(goToMarketn);
                 }
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.site:
 
-                Uri ur= Uri.parse("https://www.jnu.ac.bd/dept/portal/web/cse");
+                Uri ur= Uri.parse("https://www.nwu.edu.bd/cse_teacher.php");
                 Intent goToMarke = new Intent(Intent.ACTION_VIEW, ur);
                 startActivity(goToMarke);
 
@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
 
             case R.id.dsite:
-                Uri uri = Uri.parse("https://www.jnu.ac.bd/");
+                Uri uri = Uri.parse("https://www.nwu.edu.bd/");
                 Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(goToMarket);
                 break;
