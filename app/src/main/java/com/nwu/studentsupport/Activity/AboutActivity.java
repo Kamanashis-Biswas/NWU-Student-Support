@@ -60,7 +60,7 @@ public class AboutActivity extends AppCompatActivity {
 					sharingIntent.setPackage("com.facebook.katana");
 					startActivity(sharingIntent);
 				} catch (ActivityNotFoundException e) {
-					Uri urin = Uri.parse("https://m.facebook.com/jhm69");
+					Uri urin = Uri.parse("https://m.facebook.com/");
 					Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
 					startActivity(goToMarketn);
 				}
@@ -71,7 +71,7 @@ public class AboutActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View v) {
 
-				Uri urin = Uri.parse("https://m.https://github.com/JHM69");
+				Uri urin = Uri.parse("https://m.https://github.com/");
 				Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
 				startActivity(goToMarketn);
 
@@ -81,7 +81,7 @@ public class AboutActivity extends AppCompatActivity {
 			@Override
 			public void onClick(View v) {
 
-				Uri urin = Uri.parse("https://www.linkedin.com/in/jahangir-hossain-b8325017b/");
+				Uri urin = Uri.parse("https://www.linkedin.com/");
 				Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
 				startActivity(goToMarketn);
 

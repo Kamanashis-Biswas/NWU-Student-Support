@@ -5,7 +5,7 @@
 	android:layout_height="150dp"
 	android:orientation="vertical"
 	android:selectable="true"
-	android:background="@drawable/hea"
+	android:background="@drawable/header"
 	android:layout_gravity="top"
 	android:gravity="bottom">
 

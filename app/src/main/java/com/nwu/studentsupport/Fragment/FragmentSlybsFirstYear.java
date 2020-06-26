@@ -1,12 +1,11 @@
 package com.nwu.studentsupport.Fragment;
-import android.app.*;
+
 import android.os.*;
 
 import androidx.annotation.Nullable;
 
-import android.util.*;
+
 import android.view.*;
-import android.webkit.*;
 
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
@@ -14,8 +13,7 @@ import androidx.fragment.app.Fragment;
 import com.nwu.studentsupport.R;
 
 public class FragmentSlybsFirstYear extends Fragment {
-	WebView mWebView;
-	ProgressDialog progressDialog;
+
 	CardView x;
 	
     @Nullable
@@ -35,20 +33,7 @@ public class FragmentSlybsFirstYear extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 		
-		mWebView = (WebView) getActivity().findViewById(R.id.webview);
-		mWebView.getSettings().setJavaScriptEnabled(true);
-		mWebView.setWebChromeClient(new WebChromeClient() {
-				public boolean onConsoleMessage(ConsoleMessage cm) {
-					String TAG = null;
-					Log.d(TAG, cm.message() + " -- From line "
-						  + cm.lineNumber() + " of "
-						  + cm.sourceId() );
-					return true;
-				}
 
-			});
-		mWebView.loadUrl("file:///android_asset/slybs.html");
-		mWebView.loadUrl("javascript:plot()");
     }
 
 
