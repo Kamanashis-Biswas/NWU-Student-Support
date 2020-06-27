@@ -28,7 +28,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AboutActivity extends AppCompatActivity {
-	private ImageView fb, git, link;
+//	private ImageView fb, git, link;
 	private CardView send;
 	private ProgressDialog progressDialog;
 	private EditText messegeET;
@@ -44,49 +44,49 @@ public class AboutActivity extends AppCompatActivity {
 		Toolbar toolbar = (Toolbar) findViewById(R.id.bahr);
 		firebaseAuth = FirebaseAuth.getInstance();
 		setSupportActionBar(toolbar);
-		fb = findViewById(R.id.facebook);
-		git = findViewById(R.id.github);
-		link = findViewById(R.id.linkedin);
+//		fb = findViewById(R.id.facebook);
+//		git = findViewById(R.id.github);
+//		link = findViewById(R.id.linkedin);
 		send = findViewById(R.id.send);
 		messegeET = findViewById(R.id.messege);
 
-		fb.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				try {
-					Intent sharingIntent = new Intent(Intent.ACTION_VIEW);
-					sharingIntent.setType("URL");
-					sharingIntent.setData(Uri.parse("fb://facewebmodal/f?href=https://m.facebook.com/jhm69"));
-					sharingIntent.setPackage("com.facebook.katana");
-					startActivity(sharingIntent);
-				} catch (ActivityNotFoundException e) {
-					Uri urin = Uri.parse("https://m.facebook.com/");
-					Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
-					startActivity(goToMarketn);
-				}
-
-			}
-		});
-		git.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-
-				Uri urin = Uri.parse("https://m.https://github.com/");
-				Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
-				startActivity(goToMarketn);
-
-			}
-		});
-		link.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-
-				Uri urin = Uri.parse("https://www.linkedin.com/");
-				Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
-				startActivity(goToMarketn);
-
-			}
-		});
+//		fb.setOnClickListener(new View.OnClickListener() {
+//			@Override
+//			public void onClick(View v) {
+//				try {
+//					Intent sharingIntent = new Intent(Intent.ACTION_VIEW);
+//					sharingIntent.setType("URL");
+//					sharingIntent.setData(Uri.parse("fb://facewebmodal/f?href=https://m.facebook.com/jhm69"));
+//					sharingIntent.setPackage("com.facebook.katana");
+//					startActivity(sharingIntent);
+//				} catch (ActivityNotFoundException e) {
+//					Uri urin = Uri.parse("https://m.facebook.com/");
+//					Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
+//					startActivity(goToMarketn);
+//				}
+//
+//			}
+//		});
+//		git.setOnClickListener(new View.OnClickListener() {
+//			@Override
+//			public void onClick(View v) {
+//
+//				Uri urin = Uri.parse("https://m.https://github.com/");
+//				Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
+//				startActivity(goToMarketn);
+//
+//			}
+//		});
+//		link.setOnClickListener(new View.OnClickListener() {
+//			@Override
+//			public void onClick(View v) {
+//
+//				Uri urin = Uri.parse("https://www.linkedin.com/");
+//				Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
+//				startActivity(goToMarketn);
+//
+//			}
+//		});
 
 
 		send.setOnClickListener(new View.OnClickListener() {

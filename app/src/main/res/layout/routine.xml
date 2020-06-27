@@ -45,10 +45,10 @@
 
 	<com.nwu.studentsupport.Others.TouchImageView
 		android:id="@+id/pdfv"
-		android:layout_gravity="center"
-		android:src="@drawable/rutt"
 		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"/>
+		android:layout_height="552dp"
+		android:layout_gravity="center"
+		android:src="@drawable/ruttt" />
 
 </LinearLayout>
 
