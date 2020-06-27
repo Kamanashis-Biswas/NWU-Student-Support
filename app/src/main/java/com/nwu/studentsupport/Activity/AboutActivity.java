@@ -28,7 +28,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AboutActivity extends AppCompatActivity {
-//	private ImageView fb, git, link;
+	private TextView kb, mb, aa , fd;
 	private CardView send;
 	private ProgressDialog progressDialog;
 	private EditText messegeET;
@@ -44,29 +44,86 @@ public class AboutActivity extends AppCompatActivity {
 		Toolbar toolbar = (Toolbar) findViewById(R.id.bahr);
 		firebaseAuth = FirebaseAuth.getInstance();
 		setSupportActionBar(toolbar);
-//		fb = findViewById(R.id.facebook);
-//		git = findViewById(R.id.github);
-//		link = findViewById(R.id.linkedin);
+		kb = findViewById(R.id.kamanashis);
+		mb = findViewById(R.id.mustakim);
+		aa = findViewById(R.id.afsana);
+		fd = findViewById(R.id.diba);
 		send = findViewById(R.id.send);
 		messegeET = findViewById(R.id.messege);
 
-//		fb.setOnClickListener(new View.OnClickListener() {
-//			@Override
-//			public void onClick(View v) {
-//				try {
-//					Intent sharingIntent = new Intent(Intent.ACTION_VIEW);
-//					sharingIntent.setType("URL");
-//					sharingIntent.setData(Uri.parse("fb://facewebmodal/f?href=https://m.facebook.com/jhm69"));
-//					sharingIntent.setPackage("com.facebook.katana");
-//					startActivity(sharingIntent);
-//				} catch (ActivityNotFoundException e) {
-//					Uri urin = Uri.parse("https://m.facebook.com/");
-//					Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
-//					startActivity(goToMarketn);
-//				}
-//
-//			}
-//		});
+		kb.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				try {
+					Intent sharingIntent = new Intent(Intent.ACTION_VIEW);
+					sharingIntent.setType("URL");
+					sharingIntent.setData(Uri.parse("fb://facewebmodal/f?href=https://m.facebook.com/kamanashisbiawas69"));
+					sharingIntent.setPackage("com.facebook.katana");
+					startActivity(sharingIntent);
+				} catch (ActivityNotFoundException e) {
+					Uri urin = Uri.parse("https://m.facebook.com/kamanashisbiawas69");
+					Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
+					startActivity(goToMarketn);
+				}
+
+			}
+		});
+
+		mb.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				try {
+					Intent sharingIntent = new Intent(Intent.ACTION_VIEW);
+					sharingIntent.setType("URL");
+					sharingIntent.setData(Uri.parse("fb://facewebmodal/f?href=https://m.facebook.com/mustakim.bellah.161"));
+					sharingIntent.setPackage("com.facebook.katana");
+					startActivity(sharingIntent);
+				} catch (ActivityNotFoundException e) {
+					Uri urin = Uri.parse("https://m.facebook.com/mustakim.bellah.161");
+					Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
+					startActivity(goToMarketn);
+				}
+
+			}
+		});
+
+		aa.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				try {
+					Intent sharingIntent = new Intent(Intent.ACTION_VIEW);
+					sharingIntent.setType("URL");
+					sharingIntent.setData(Uri.parse("fb://facewebmodal/f?href=https://m.facebook.com/afsana.anan.7"));
+					sharingIntent.setPackage("com.facebook.katana");
+					startActivity(sharingIntent);
+				} catch (ActivityNotFoundException e) {
+					Uri urin = Uri.parse("https://m.facebook.com/afsana.anan.7");
+					Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
+					startActivity(goToMarketn);
+				}
+
+			}
+		});
+
+		fd.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				try {
+					Intent sharingIntent = new Intent(Intent.ACTION_VIEW);
+					sharingIntent.setType("URL");
+					sharingIntent.setData(Uri.parse("fb://facewebmodal/f?href=https://m.facebook.com/faria.islam.52459"));
+					sharingIntent.setPackage("com.facebook.katana");
+					startActivity(sharingIntent);
+				} catch (ActivityNotFoundException e) {
+					Uri urin = Uri.parse("https://m.facebook.com/faria.islam.52459");
+					Intent goToMarketn = new Intent(Intent.ACTION_VIEW, urin);
+					startActivity(goToMarketn);
+				}
+
+			}
+		});
+
+
 //		git.setOnClickListener(new View.OnClickListener() {
 //			@Override
 //			public void onClick(View v) {

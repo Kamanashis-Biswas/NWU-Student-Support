@@ -24,7 +24,7 @@
 	<item
         android:id="@+id/dev"
         android:icon="@drawable/ic_adb_black_24dp"
-        android:title="About Developer" />
+        android:title="About Developers" />
 	
 
     <item
