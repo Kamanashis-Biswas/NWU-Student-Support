@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='cse11'
+rootProject.name='com.nwu.studentsupport'
