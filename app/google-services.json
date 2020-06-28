@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "899498821792",
-    "firebase_url": "https://nwu-app.firebaseio.com",
-    "project_id": "nwu-app",
-    "storage_bucket": "nwu-app.appspot.com"
+    "project_number": "635848832599",
+    "firebase_url": "https://nwu-student-9b673.firebaseio.com",
+    "project_id": "nwu-student-9b673",
+    "storage_bucket": "nwu-student-9b673.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:899498821792:android:93e74dfbccff8c5352e1c5",
+        "mobilesdk_app_id": "1:635848832599:android:576ceee777216bd788d512",
         "android_client_info": {
           "package_name": "com.nwu.studentsupport"
         }
       },
       "oauth_client": [
         {
-          "client_id": "899498821792-0pj2knoc4jc23nk3lv022d9or49dtb7l.apps.googleusercontent.com",
+          "client_id": "635848832599-ao75219ni6kj73kr6m4on57ncam8bg46.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDb7rDxrxG5OoZiMQyYvVtHLh1OpC5QXFc"
+          "current_key": "AIzaSyDueXZBB-2PDEbqFN6pgtm4d_fSrwx6vdk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "899498821792-0pj2knoc4jc23nk3lv022d9or49dtb7l.apps.googleusercontent.com",
+              "client_id": "635848832599-ao75219ni6kj73kr6m4on57ncam8bg46.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
