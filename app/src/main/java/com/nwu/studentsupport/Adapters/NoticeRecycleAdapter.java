@@ -68,7 +68,7 @@ public class NoticeRecycleAdapter extends RecyclerView.Adapter<NoticeRecycleAdap
 			MyDate =(TextView)itemView.findViewById(R.id.date);
             MyBody = (TextView)itemView.findViewById(R.id.bodyTV );
 			Myimageurl = (ImageView) itemView.findViewById(R.id.image_url);
-			
+
 
         }
     }

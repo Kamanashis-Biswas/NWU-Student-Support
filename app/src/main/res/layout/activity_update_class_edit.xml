@@ -38,7 +38,7 @@
             android:fontFamily="@font/nunitosans_bold"
             android:paddingLeft="15dp"
             android:paddingRight="15dp"
-            android:text="09-04-2020"
+            android:text="15-10-2020"
             android:textColor="#ffffff"
             android:textSize="20sp" />
 

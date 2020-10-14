@@ -14,16 +14,26 @@
         app:titleTextColor="@android:color/white" />
 
 
-	<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
-		android:id="@+id/sp_stu"
+<!--	<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--		android:id="@+id/sp_stu"-->
+<!--		android:layout_width="match_parent"-->
+<!--		android:layout_height="wrap_content">-->
+
+<!--		<androidx.recyclerview.widget.RecyclerView-->
+<!--			android:id="@+id/rcv_stu"-->
+<!--			android:layout_width="match_parent"-->
+<!--			android:layout_height="match_parent">-->
+<!--		</androidx.recyclerview.widget.RecyclerView>-->
+
+<!--	</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>-->
+
+	<WebView
+		android:id="@+id/webViewID"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content">
+		android:layout_height="match_parent"/>
 
-		<androidx.recyclerview.widget.RecyclerView
-			android:id="@+id/rcv_stu"
-			android:layout_width="match_parent"
-			android:layout_height="match_parent">
-		</androidx.recyclerview.widget.RecyclerView>
 
-	</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+
 </LinearLayout>
